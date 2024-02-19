@@ -1,0 +1,113 @@
+#intro {
+
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Baxolise {
+    max-width: 40%;
+    border-radius: 50%;
+  }
+  
+  .introContent {
+    height: 100vh;
+    width: 100vh;
+    padding: 0 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .introPara {
+    font-size: medium;
+    font-weight: 100;
+  }
+  
+  .introTittle {
+    color: #ff176b;
+  }
+  
+  .resumeButton {
+    width: 9rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #ff176b;
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.25rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 14px;
+  }
+  
+  .resumeButton .icon {
+    margin-right: 20px;
+  }
+  
+  .resumeButton .text {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    right: 3rem;
+  }
+  
+  .social-icon {
+    color: #ff176b;
+  }
+
+  @media only screen and (max-width: 768px) {
+    #intro{
+      flex-direction: column;
+    }
+    .introContent {
+      font-size: 2rem;
+      width: auto;
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    .Baxolise {
+      max-width: 30%;
+    }
+  
+    .resumeButton {
+      width: 7rem;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 840px) {
+    .Baxolise {
+      max-width: 40%; /* Adjust the image size */
+      right: -3vw; /* Adjust position */
+    }
+    .introContent {
+      font-size: 5vw; /* Adjust font size */
+    }
+    .hello {
+      font-size: 4vw; /* Adjust font size */
+    }
+    .introPara {
+      font-size: 3vw; /* Adjust font size */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Baxolise {
+      max-width: 30%; /* Adjust the image size */
+      right: -10vw; /* Adjust position */
+    }
+    .introContent {
+      font-size: 3vw; /* Adjust font size */
+    }
+    .hello {
+      font-size: 3vw; /* Adjust font size */
+    }
+  }
+  

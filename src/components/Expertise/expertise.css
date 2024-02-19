@@ -1,0 +1,201 @@
+#expertise {
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 ;
+  margin: auto;
+}
+
+.skillsContainer {
+  flex-grow: 1;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.expertiseName {
+  position: relative;
+  justify-content: left;
+  flex-wrap: wrap;
+  right: 10rem;
+}
+
+.objective {
+  max-width: 25rem;
+  font-size: 1.1rem;
+  background-color: #ff176b;
+  border-radius: 9%;
+  color: black;
+  font-weight: 600;
+}
+
+.expertise-content {
+  display: flex;
+  gap: .1rem;
+  margin-left: 3rem;
+}
+
+.Baxo {
+  width: 24rem;
+}
+
+.skill-mf {
+  width: 300px;
+  height: 200px;
+  margin: 0.5rem;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skillsTitle span {
+  font-weight: 100;
+  font-size: 13px;
+  text-align: center;
+ 
+}
+
+.title {
+  text-align: center;
+}
+
+/* Skills bars */
+.progress {
+  height: 1.5rem;
+  background-color: #f0f0f0;
+}
+
+.progress-bar {
+  position: relative;
+  height: inherit;
+  background-color: #ff176b;
+  right: .65rem;
+  top: -.6rem;
+  
+}
+
+.expertise {
+  position: relative;
+  right: 6rem;
+  top: 1.8rem;
+}
+
+.pull-right1 {
+  position: relative;
+  left: 20rem;
+  top: 1.8rem;
+}
+
+.pull-right2 {
+  position: relative;
+  left: 21rem;
+  top: 1.8rem;
+}
+
+.pull-right3 {
+  position: relative;
+  left: 17.5rem;
+  top: 1.8rem;
+}
+
+.pull-right4 {
+  position: relative;
+  left: 19rem;
+  top: 1.8rem;
+}
+
+.pull-right5 {
+  position: relative;
+  left: 20.5rem;
+  top: 1.8rem;
+}
+
+.pull-right6 {
+  position: relative;
+  left: 19.5rem;
+  top: 1.8rem;
+}
+@media only screen and (max-width: 768px) {
+  .expertise-content{
+    flex-direction: column;
+    padding: auto;
+    display: flex;
+    gap:0;
+    margin-left: 2rem;
+    
+  }
+  .Baxo{
+    width: 70%;
+    height: auto;
+  }
+  .skill-mf{
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .expertiseName{
+    margin-right: 0%;
+    padding: 0%x;
+  }
+  .pull-right1{
+    left: 10rem;
+  }
+  .pull-right2 {
+    left: 10rem;
+
+  }
+  
+  .pull-right3 {
+    left: 10rem;
+  }
+  
+  .pull-right4 {
+    left: 10rem;
+  }
+  
+  .pull-right5 {
+
+    left: 10rem;
+
+  }
+  
+  .pull-right6 {
+    left: 10rem;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .objective {
+    font-size: 3vw; /* Adjust font size */
+    max-width: 15rem; /* Adjust max-width */
+    right: 0; /* Reset position */
+  }
+
+  .expertiseName {
+    right: 0; /* Reset position */
+  }
+
+  .title {
+    font-size: 5vw; /* Adjust font size */
+  }
+
+  .skillsTitle {
+    font-size: 5vw; /* Adjust font size */
+  }
+
+  .skill-mf {
+    width: 50%; /* Adjust width to occupy full width */
+    margin: 0 0 1rem ;
+    margin-top: 10rem; /* Adjust margin to 1rem on top */
+  }
+
+  .expertise-content {
+    margin-top: 3rem; /* Add margin to separate .skill-mf from .expertise-content */
+  }
+  .pull-right1{
+    margin: 0%;
+  }
+}

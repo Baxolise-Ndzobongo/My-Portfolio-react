@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; 
+  text-decoration: none;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  
+}
+
+body {
+  background: black;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.section {
+  margin: 20px;
+  padding: 20px;
+}

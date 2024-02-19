@@ -1,0 +1,106 @@
+#portfolio {
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+}
+
+.portfolioItem {
+    position: relative;
+    display: block;
+}
+
+.portfolioImg {
+    width: 70%;
+    height: 200px;  
+    margin: 1.5rem;
+}
+
+.portfolioText {
+    position: absolute;
+    top: 5px;
+    right: -70%; /* Initially position text outside of the container */
+    width: 70%;
+    height: 70%;
+    margin-left: 20px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#ff176b, white) ; /* Semi-transparent background */
+    padding: 1rem;
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease, right 0.3s ease; /* Smooth transition */
+}
+
+.portfolioItem:hover .portfolioText {
+    right: 0; /* Slide in from the right on hover */
+    opacity: 1; /* Fade in */
+}
+
+
+.portfolioImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    border-radius: 10px;
+    max-width: 65rem;
+    gap: 3rem;
+}
+.portfolioImgs img{
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    /* Adjust layout for tablets or smaller screens */
+    .portfolioImgs {
+        flex-direction: column; /* Stack images vertically */
+    }
+    .portfolioImg,
+    .portfolioText {
+        width: 70%; /* Take up most of the container's width */
+    }
+    .portfolioItem,
+    .portfolioText {
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Adjust height automatically */
+        padding: 0; /* Remove padding */
+        margin: 1rem 0; /* Add margin between items */
+    }
+}
+@media only screen and (max-width: 585px) {
+    /* Set a height limit for smaller screens to prevent overflow */
+    .portfolioImgs {
+        height: auto; /* Allow height to adjust automatically */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* Further adjustments for narrower screens */
+    .portfolioImgs {
+        gap: 0; /* Remove gap between images */
+    }
+    .portfolioImg {
+        width: 90%; /* Adjust image width */
+        margin: 1rem auto; /* Center images horizontally */
+    }
+    .portfolioText {
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Adjust height automatically */
+        padding: 0.5rem; /* Add padding */
+        margin: 0.5rem auto; /* Center text horizontally */
+        right: 0; /* Align text to the left */
+        top: auto; /* Remove top positioning */
+        bottom: 0; /* Position text at the bottom */
+        background: rgba(255, 23, 107, 0.9); /* Semi-transparent background */
+        color: white; /* Text color */
+        border-radius: 0; /* Remove border radius */
+        transition: none; /* Remove transition */
+        opacity: 1; /* Ensure text is visible */
+    }
+}
