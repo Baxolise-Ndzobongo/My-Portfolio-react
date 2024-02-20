@@ -32,7 +32,6 @@ const Contact = () => {
       <div className="ContactPage">
         <h1 className='contactPageTitle'>Contact Me</h1>
         <h2 className='contactSub'>Get in touch</h2>
-        <div className="form-container"> 
         <div className="contactItem">
             <FaEnvelope className="icon" />
             <span>baxolisendzobongo222@gmail.com</span>
@@ -46,6 +45,8 @@ const Contact = () => {
             <span>Philippi East</span>
           </div>
         </div>
+        <div className="form-container"> 
+        
           <form className="form" onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name" className="label_name">Name:</label>

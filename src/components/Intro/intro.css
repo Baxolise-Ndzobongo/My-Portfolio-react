@@ -123,13 +123,16 @@
   @media screen and (max-width: 480px) {
     .Baxolise {
       max-width: 30%; /* Adjust the image size */
-      right: -10vw; /* Adjust position */
+      right: 35vw; /* Adjust position */
+      top: 7rem;/* Adjust position */
     }
     .introContent {
       font-size: 3vw; /* Adjust font size */
+      margin-top: 7rem
     }
     .hello {
       font-size: 3vw; /* Adjust font size */
+      margin-top: 2rem;
     }
   }
   

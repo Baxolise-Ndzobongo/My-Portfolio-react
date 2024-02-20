@@ -150,54 +150,65 @@
     padding: 0%x;
   }
   .pull-right1 {
-    left: 10rem;
+    left: 1rem;
   }
   .pull-right2 {
-    left: 10rem;
+    left: 1rem;
   }
   .pull-right3 {
-    left: 10rem;
+    left: 1rem;
   }
   .pull-right4 {
-    left: 10rem;
+    left: 1rem;
   }
   .pull-right5 {
-    left: 10rem;
+    left: 1rem;
   }
   .pull-right6 {
-    left: 10rem;
+    left: 1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .objective {
-    font-size: 3vw; /* Adjust font size */
-    max-width: 15rem; /* Adjust max-width */
-    right: 0; /* Reset position */
-  }
-
-  .expertiseName {
-    right: 0; /* Reset position */
-  }
-
-  .title {
-    font-size: 5vw; /* Adjust font size */
-  }
-
-  .skillsTitle {
-    font-size: 5vw; /* Adjust font size */
-  }
-
-  .skill-mf {
-    width: 50%; /* Adjust width to occupy full width */
-    margin: 0 0 1rem ;
-    margin-top: 10rem; /* Adjust margin to 1rem on top */
-  }
-
   .expertise-content {
-    margin-top: 3rem; /* Add margin to separate .skill-mf from .expertise-content */
+    flex-direction: column;
+    padding: auto;
+    display: flex;
+    gap:0;
+    margin-left: 10rem;
+  }
+  .Baxo {
+    width: 90%;
+    height: auto;
+  }
+  .skill-mf {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .expertise{
+    right: 6rem;
+  }
+  .expertiseName {
+    margin-right: 0%;
+    padding: 0%x;
   }
   .pull-right1 {
-    margin: 0%;
+    left: 4rem;
+  }
+  .pull-right2 {
+    left: 4rem;
+  }
+  .pull-right3 {
+    left: 2.5rem;
+  }
+  .pull-right4 {
+    left: 3rem;
+  }
+  .pull-right5 {
+    left: 4rem;
+  }
+  .pull-right6 {
+    left: 3.5rem;
   }
 }
