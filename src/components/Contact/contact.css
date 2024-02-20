@@ -50,18 +50,24 @@
 .form-container .form-group textarea {
   width: 100%;
   padding: 12px 16px;
-  color: #fff;
+  color:black;
   font-family: inherit;
   background-color: white;
   border: 1px solid #f8f2f2;
   margin-top: 8px; /* Adjust margin-top */
 }
-/* 
-.form-container .form-group textarea {
-  resize: none;
-  height: 96px;
-} */
 
+.form-container .form-group textarea {
+  /* resize: none; */
+  height: 96px;
+}
+.form-group label {
+  color: black; /* Set label font color to black */
+}
+.form-group input, 
+.form-group textarea {
+  color: black; /* Set input font color to black */
+}
 .form-container .form-group input::placeholder {
   opacity: 0.5;
 }
@@ -70,6 +76,7 @@
 .form-container .form-group textarea:focus {
   outline: none;
   border-color: #ff176b;
+  color: black; /* Set focused input font color to black */
 }
 
 .form-container .form-submit-btn {
@@ -92,5 +99,8 @@
   background-color: #EB1EB2;
   border-color: #f7397e;
 }
-
+.form-container .form-group input::placeholder,
+.form-container .form-container .form-group textarea::placeholder {
+  color: black; /* Set placeholder color to black */
+}
 

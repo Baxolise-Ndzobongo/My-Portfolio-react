@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com'; // Import emailjs
 import './contact.css';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
@@ -24,7 +25,22 @@ const Contact = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); 
+
+    // Use emailjs to send email
+    emailjs.sendForm('service_ms7thw7', 'template_e2q04bg', e.target, 'xOVZT7p0u5qevjgCI')
+      .then((result) => {
+        console.log(result.text);
+        // Clear form after successful submission
+        setFormData({
+          name: '',
+          phone: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+      }, (error) => {
+        console.log(error.text);
+      });
   };
 
   return (
@@ -76,5 +92,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-

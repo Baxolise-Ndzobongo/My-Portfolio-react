@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
   }
-  
+ 
   .Baxolise {
     max-width: 40%;
     border-radius: 50%;
@@ -76,8 +76,8 @@
     right: 0.5rem;
   }
   
-  .social-icon {
-    color: #ff176b;
+  .social-icons a:hover {
+    color: #ff176b; /* Change color to pink when hovered over */
   }
 
   @media only screen and (max-width: 768px) {

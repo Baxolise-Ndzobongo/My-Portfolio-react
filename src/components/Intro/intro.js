@@ -41,20 +41,21 @@ const Intro = () => {
 
         <div className="social-icons">
           <a
-            href="https://github.com/"
-            target="_blank"
-            rel="noopener noreferrer" >
-       
-            <FaGithub size={40} style={{ marginRight: "6px" }} />
-          </a>
-          <a
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noopener noreferrer">
-          
-            <FaLinkedin size={40} style={{ marginRight: "6px" }} />
-          </a>
-        </div>
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social_i"
+        >
+    <FaGithub size={40} style={{ marginRight: "6px" }} />
+  </a>
+  <a
+    href="https://www.linkedin.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin size={40} style={{ marginRight: "6px" }} />
+  </a>
+</div>
       </div>
       <img src={image} alt="Profile" className="Baxolise animated" />
     </section>
