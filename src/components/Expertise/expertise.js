@@ -20,8 +20,11 @@ const Expertise = () => {
               and I continually strive to stay updated with the latest industry
               trends and technologies.
             </p>
+            <div className="obj">
+                <img src={ExpImage} alt="Profile" className="Baxo" />
+               <div className="objchild"></div>
+            </div>
 
-            <img src={ExpImage} alt="Profile" className="Baxo" />
           </div>
           <div className="skill-mf">
             <div>
