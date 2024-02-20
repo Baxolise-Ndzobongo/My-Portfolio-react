@@ -102,17 +102,21 @@
   }
   @media screen and (max-width: 840px) {
     .Baxolise {
-      max-width: 40%; /* Adjust the image size */
-      right: -3vw; /* Adjust position */
+      max-width: 30%; /* Adjust the image size */
+      right: 35vw; /* Adjust position */
+      top: 7rem;
     }
     .introContent {
       font-size: 5vw; /* Adjust font size */
+      margin-top: 7rem;
     }
     .hello {
       font-size: 4vw; /* Adjust font size */
+      margin-top: 3rem;
     }
     .introPara {
       font-size: 3vw; /* Adjust font size */
+      margin-top: 2rem;
     }
   }
   
