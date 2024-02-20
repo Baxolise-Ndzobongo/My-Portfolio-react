@@ -8,6 +8,15 @@
   margin: auto;
 }
 
+.expertise_container {
+  text-align: center;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .skillsContainer {
   flex-grow: 1;
   margin-right: 20px;
@@ -23,10 +32,11 @@
 }
 
 .objective {
-  max-width: 25rem;
+  max-width: 30rem;
+  height: 10rem;
   font-size: 1.1rem;
   background-color: #ff176b;
-  border-radius: 9%;
+  border-radius: 5%;
   color: black;
   font-weight: 600;
 }
@@ -39,6 +49,7 @@
 
 .Baxo {
   width: 24rem;
+  margin-top: 20px; 
 }
 
 .skill-mf {
@@ -55,11 +66,6 @@
   font-weight: 100;
   font-size: 13px;
   text-align: center;
- 
-}
-
-.title {
-  text-align: center;
 }
 
 /* Skills bars */
@@ -70,103 +76,99 @@
 
 .progress-bar {
   position: relative;
-  height: inherit;
+  height: 1.5rem;
   background-color: #ff176b;
-  right: .65rem;
-  top: -.6rem;
-  
+  transition: background-color 0.3s ease,transform 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+.progress-bar:hover {
+  background-color: #f43ec1; 
+  transform: scale(1.05);
 }
 
 .expertise {
   position: relative;
-  right: 6rem;
-  top: 1.8rem;
+  right: 12rem;
+  top: 1.4rem;
 }
 
 .pull-right1 {
   position: relative;
-  left: 20rem;
-  top: 1.8rem;
+  left: 10rem;
+  top: 1.5rem;
 }
 
 .pull-right2 {
   position: relative;
-  left: 21rem;
-  top: 1.8rem;
+  left: 10rem;
+  top: 1.4rem;
 }
 
 .pull-right3 {
   position: relative;
-  left: 17.5rem;
-  top: 1.8rem;
+  left: 8rem;
+  top: 1.5rem;
 }
 
 .pull-right4 {
   position: relative;
-  left: 19rem;
-  top: 1.8rem;
+  left: 9rem;
+  top: 1.5rem;
 }
 
 .pull-right5 {
   position: relative;
-  left: 20.5rem;
-  top: 1.8rem;
+  left: 10rem;
+  top: 1.5rem;
 }
 
 .pull-right6 {
   position: relative;
-  left: 19.5rem;
-  top: 1.8rem;
+  left: 9rem;
+  top: 1.5rem;
 }
+
 @media only screen and (max-width: 768px) {
-  .expertise-content{
+  .expertise-content {
     flex-direction: column;
     padding: auto;
     display: flex;
     gap:0;
     margin-left: 2rem;
-    
   }
-  .Baxo{
+  .Baxo {
     width: 70%;
     height: auto;
   }
-  .skill-mf{
+  .skill-mf {
     width: auto;
     height: auto;
     margin: auto;
   }
-  .expertiseName{
+  .expertiseName {
     margin-right: 0%;
     padding: 0%x;
   }
-  .pull-right1{
+  .pull-right1 {
     left: 10rem;
   }
   .pull-right2 {
     left: 10rem;
-
   }
-  
   .pull-right3 {
     left: 10rem;
   }
-  
   .pull-right4 {
     left: 10rem;
   }
-  
   .pull-right5 {
-
     left: 10rem;
-
   }
-  
   .pull-right6 {
     left: 10rem;
   }
-  
 }
+
 @media screen and (max-width: 480px) {
   .objective {
     font-size: 3vw; /* Adjust font size */
@@ -195,7 +197,7 @@
   .expertise-content {
     margin-top: 3rem; /* Add margin to separate .skill-mf from .expertise-content */
   }
-  .pull-right1{
+  .pull-right1 {
     margin: 0%;
   }
 }

@@ -11,9 +11,6 @@ const Footer = () => {
           <FaCopyright size={40} style={{ marginRight: "10px", color: '#000000' }} />
         </span>
         2024 All rights reserved
-        {/* <span className="arrowIconContainer">
-        <FaArrowUp size={40} style={{marginRight: "80px"}} /> */}
-        {/* </span> */}
       </h1>
     </section>
   );

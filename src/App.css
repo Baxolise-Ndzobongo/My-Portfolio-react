@@ -11,4 +11,8 @@
     overflow: hidden;
     overflow-y: scroll;
   }
-  
+  section {
+    margin: 20px;
+    padding: 20px;
+    min-height: 100vh;
+  }

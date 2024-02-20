@@ -5,9 +5,11 @@ import ExpImage from "../../images/Baxo.jpg";
 const Expertise = () => {
   return (
     <section id="expertise">
-      <div className="expertise_container">
-        <h3 className="title">Expertise</h3>
-        <span className="skillsTitle">What I know</span>
+    <div className="expertise_container">
+      <h3 className="title">Expertise</h3>
+      <span className="skillsTitle">What I know</span>
+      <span className="skillsTitle2">My creative skills and experience</span>
+      
         <div className="expertise-content">
           <div className="expertiseName">
             <p class="objective">

@@ -1,4 +1,4 @@
-/* navbar styling */
+/* Navbar */
 .navbar {
   position: fixed;
   width: 100%;
@@ -8,9 +8,20 @@
   transition: all 0.3s ease;
 }
 
+
+.desktopMenuListItem 
+{
+  margin-right: 20px; /* Adjust the margin as per your preference */
+  cursor: pointer;
+}
+.desktopMenuListItem:hover {
+  color: rgb(14, 13, 13);
+  border-bottom: 3px solid rgb(252, 247, 248);
+}
+
 .navbar.sticky {
   padding: 15px 0;
-  background: #ff176b;
+  background-image:linear-gradient( #ff176b, black);
 }
 
 .navbar .max-width {
@@ -32,7 +43,7 @@
 }
 
 .navbar.sticky .logo a span {
-  color: #fff;
+  color: #ff176b;
 }
 
 .navbar .menu li {
@@ -57,7 +68,7 @@
   color: #fff;
 }
 
-/* menu btn styling */
+/* Menu Button */
 .menu-btn {
   color: #fff;
   font-size: 23px;
@@ -93,4 +104,62 @@
 
 .scroll-up-btn:hover {
   filter: brightness(90%);
+}
+
+/* For small screen sizes */
+@media screen and (max-width: 768px) {
+  .navbar .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #ff176b;
+      padding: 20px 0;
+      text-align: center;
+      transition: all 0.3s ease;
+      transform: translateY(-100%);
+  }
+  
+  .desktopMenuListItem 
+{
+  display: flex;
+ justify-content: center;
+  align-items:flex-end;
+  cursor: pointer;
+  right: 0;
+}
+  .desktopMenuListItem:hover {
+    color: rgb(14, 13, 13);
+    border-bottom: 3px solid rgb(252, 247, 248);
+  }
+  .navbar .menu.open {
+      display:list-item;
+      transform: translateY(0);
+  }
+
+  .navbar .menu li {
+      margin-bottom: 15px;
+  }
+
+  /* .navbar .menu li:last-child {
+      margin-bottom: 0;
+  } */
+
+  .navbar .menu li a {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+  }
+
+  .navbar .menu li a:hover {
+      color: #fff;
+  }
+
+  .menu-btn {
+      display: block;
+      position: relative;
+  }
 }

@@ -1,8 +1,9 @@
 #footer {
   background: #ff176b;
   text-align: center; 
-  bottom: 0;
-  margin-bottom: 0;
+  bottom: 0px;
+  margin-bottom: 0px;
+  min-height: 5vh;
 }
 
 .footerHeading {
@@ -28,7 +29,7 @@
   }
   .arrowIconContainer {
     display: none; /* Hide arrow icon on smaller screens */
-  }
+  } 
 }
 
 @media screen and (max-width: 480px) {
