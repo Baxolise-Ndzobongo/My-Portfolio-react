@@ -48,7 +48,8 @@ const Contact = () => {
       <div className="ContactPage">
         <h1 className='contactPageTitle'>Contact Me</h1>
         <h2 className='contactSub'>Get in touch</h2>
-        <div className="contactItem">
+        <div className="contactItemsContainer">
+          <div className="contactItem">
             <FaEnvelope className="icon" />
             <span>baxolisendzobongo222@gmail.com</span>
           </div>
@@ -61,32 +62,36 @@ const Contact = () => {
             <span>Philippi East</span>
           </div>
         </div>
-        <div className="form-container"> 
-        
-          <form className="form" onSubmit={handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="name" className="label_name">Name:</label>
-              <input required="" name="name" id="name" type="text" value={formData.name} onChange={handleInputChange} />
-            </div>
-            <div className="form-group">
-              <label htmlFor="phone">Phone:</label>
-              <input required="" name="phone" id="phone" type="tel" value={formData.phone} onChange={handleInputChange} />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Email:</label>
-              <input required="" name="email" id="email" type="email" value={formData.email} onChange={handleInputChange} />
-            </div>
-            <div className="form-group">
-              <label htmlFor="subject">Subject:</label>
-              <input required="" name="subject" id="subject" type="text" value={formData.subject} onChange={handleInputChange} />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message:</label>
-              <textarea required="" cols="50" rows="10" id="message" name="message" value={formData.message} onChange={handleInputChange}></textarea>
-            </div>
-            <button type="submit" className="form-submit-btn">Send Message</button>
-          </form>
-        </div>
+      </div>
+      <div className="circle-container">
+        <div className="circle circle1"></div>
+        <div className="circle circle2"></div>
+      </div>
+      <div className="form-container"> 
+        <form className="form" onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="name" className="label_name">Name:</label>
+            <input required="" name="name" id="name" type="text" value={formData.name} onChange={handleInputChange} />
+          </div>
+          <div className="form-group">
+            <label htmlFor="phone">Phone:</label>
+            <input required="" name="phone" id="phone" type="tel" value={formData.phone} onChange={handleInputChange} />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">Email:</label>
+            <input required="" name="email" id="email" type="email" value={formData.email} onChange={handleInputChange} />
+          </div>
+          <div className="form-group">
+            <label htmlFor="subject">Subject:</label>
+            <input required="" name="subject" id="subject" type="text" value={formData.subject} onChange={handleInputChange} />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message:</label>
+            <textarea required="" cols="50" rows="10" id="message" name="message" value={formData.message} onChange={handleInputChange}></textarea>
+          </div>
+          <button type="submit" className="form-submit-btn">Send Message</button>
+        </form>
+      </div>
     </section>
   );
 };

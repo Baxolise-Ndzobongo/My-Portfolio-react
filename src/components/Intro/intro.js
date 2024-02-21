@@ -32,7 +32,6 @@ const Intro = () => {
           offset={-70}
           duration={500}
           className="resumeButton" >
-       
           <span className="icon">
             <FaDownload size={0} style={{ marginRight: "10px" }} />
           </span>
@@ -40,22 +39,23 @@ const Intro = () => {
         </Link>
 
         <div className="social-media">
-           <a
-          href="https://github.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social_i"
-           >
-          <FaGithub size={40} style={{ marginRight: "6px" }} />
-           </a>
-             <a
-           href="https://www.linkedin.com/"
-           target="_blank"
-           rel="noopener noreferrer"
-            >
-          <FaLinkedin size={40} style={{ marginRight: "6px" }} />
-           </a>
-            </div>
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social_i"
+          >
+            <FaGithub size={40} style={{ marginRight: "6px" }} />
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social_i"
+          >
+            <FaLinkedin size={40} style={{ marginRight: "6px" }} />
+          </a>
+        </div>
 
       </div>
       <img src={image} alt="Profile" className="Baxolise animated" />

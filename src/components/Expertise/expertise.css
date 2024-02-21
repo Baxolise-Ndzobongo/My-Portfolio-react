@@ -166,6 +166,13 @@
     gap:0;
     margin-left: 2rem;
   }
+  .expertiseName{
+   margin-left: 7rem;
+   width: 20rem;
+  }
+  .objective{
+    font-size: 1rem;
+  }
   .Baxo {
     width: 70%;
     height: auto;
@@ -180,22 +187,22 @@
     padding: 0%x;
   }
   .pull-right1 {
-    left: 1rem;
+    left: 0rem;
   }
   .pull-right2 {
-    left: 1rem;
+    left: 0rem;
   }
   .pull-right3 {
-    left: 1rem;
+    left: 0rem;
   }
   .pull-right4 {
-    left: 1rem;
+    left: 0rem;
   }
   .pull-right5 {
-    left: 1rem;
+    left: 0rem;
   }
   .pull-right6 {
-    left: 1rem;
+    left: 0rem;
   }
 }
 

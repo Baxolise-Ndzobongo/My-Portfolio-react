@@ -10,7 +10,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <div className="portfolio-container">
         <h1 className="title center">Portfolio</h1>
-        <span className="portfolioTitle center">What I did</span>
+        <div className="portfolioTitle center">What I did</div>
         <div className="card-container">
           <div className="card portfolioItem">
             <img src={portfolio1} alt="" className="portfolioImg front-content" />

@@ -15,14 +15,11 @@
 .portfolio-container {
   margin-top: 20px; /* Adjust margin as needed */
 }
-.portfolioImg{
-  gap: 20px;
-}
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 40px;
 }
 
 .card {
@@ -93,6 +90,9 @@
 @media screen and (max-width: 768px) {
   .portfolioItem {
     width: 45%;
+  }
+  .card{
+    gap: 20px;
   }
 }
 
