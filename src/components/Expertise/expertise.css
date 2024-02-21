@@ -11,6 +11,15 @@
 .expertise_container {
   text-align: center;
 }
+.title{
+  align-items: center;
+}
+.skillsTitle
+.skillsTitle2{
+  align-items: center;
+  font-weight: bold;
+
+}
 
 .progress-container {
   display: flex;
@@ -29,6 +38,7 @@
   justify-content: left;
   flex-wrap: wrap;
   right: 10rem;
+  top: 5px;
 }
 
 .objective {
@@ -46,7 +56,10 @@
   display: flex;
   gap: .1rem;
   margin-left: 3rem;
+  margin-top: 40px;
+
 }
+
 
 .Baxo {
   width: 450px;

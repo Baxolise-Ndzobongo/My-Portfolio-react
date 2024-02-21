@@ -8,8 +8,7 @@ const Expertise = () => {
     <div className="expertise_container">
       <h3 className="title">Expertise</h3>
       <span className="skillsTitle">What I know</span>
-      <span className="skillsTitle2">My creative skills and experience</span>
-      
+      <div className="skillsTitle2">My creative skills and experience</div>
         <div className="expertise-content">
           <div className="expertiseName">
             <p class="objective">
