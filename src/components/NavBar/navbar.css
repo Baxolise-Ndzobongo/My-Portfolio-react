@@ -6,19 +6,37 @@
   padding: 30px 0;
   font-family: 'Ubuntu', sans-serif;
   transition: all 0.3s ease;
+  color: #fff;
 }
-
-
-.desktopMenuListItem 
-{
-  margin-right: 20px; /* Adjust the margin as per your preference */
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: #ff176b;
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
   cursor: pointer;
-}
-.desktopMenuListItem:hover {
-  color: rgb(14, 13, 13);
-  border-bottom: 3px solid rgb(252, 247, 248);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
 }
 
+.scroll-up-btn.show {
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.scroll-up-btn:hover {
+  filter: brightness(90%);
+}
 .navbar.sticky {
   padding: 15px 0;
   background-image:linear-gradient( #ff176b, black);
@@ -45,6 +63,18 @@
 .navbar.sticky .logo a span {
   color: #ff176b;
 }
+
+.desktopMenuListItem 
+{
+  margin-right: 20px; /* Adjust the margin as per your preference */
+  cursor: pointer;
+}
+.desktopMenuListItem:hover {
+  color: rgb(14, 13, 13);
+  border-bottom: 3px solid rgb(252, 247, 248);
+}
+
+
 
 .navbar .menu li {
   list-style: none;
@@ -76,35 +106,7 @@
   display: none;
 }
 
-.scroll-up-btn {
-  position: fixed;
-  height: 45px;
-  width: 42px;
-  background: #ff176b;
-  right: 30px;
-  bottom: 10px;
-  text-align: center;
-  line-height: 45px;
-  color: #fff;
-  z-index: 9999;
-  font-size: 30px;
-  border-radius: 6px;
-  border-bottom-width: 2px;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
 
-.scroll-up-btn.show {
-  bottom: 30px;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.scroll-up-btn:hover {
-  filter: brightness(90%);
-}
 
 /* For small screen sizes */
 @media screen and (max-width: 768px) {

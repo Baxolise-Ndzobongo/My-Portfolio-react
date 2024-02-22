@@ -1,5 +1,6 @@
 import React from "react";
 import "./expertise.css";
+import Typewriter from "typewriter-effect";
 import ExpImage from "../../images/Baxo.jpg";
 
 const Expertise = () => {
@@ -11,14 +12,18 @@ const Expertise = () => {
       <div className="skillsTitle2">My creative skills and experience</div>
         <div className="expertise-content">
           <div className="expertiseName">
-            <p class="objective">
-              As a developer, I possess a diverse set of skills that enables me to
-              create, maintain, and enhance software <br></br>
-              applications and systems. These skills encompass various aspects of
-              software development, <br></br>
-              and I continually strive to stay updated with the latest industry
-              trends and technologies.
-            </p>
+             <div className="typewriter-text"> 
+              <Typewriter
+              options={{
+                strings: [
+                  "As a developer, I possess a diverse set of skills that  enables <br> me to create, maintain, and enhance  software applications  <br> and systems. These skills encompass <br> various aspects of software development, and I continually strive <br> to stay updated with the latest industry trends and technologies."
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 1000,
+              }}
+            />
+            </div>
             <div className="obj">
                 <img src={ExpImage} alt="Profile" className="Baxo" />
                <div className="objchild"></div>

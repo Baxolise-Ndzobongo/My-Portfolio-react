@@ -22,7 +22,7 @@
 }
 
 .card {
-  width: 300px;
+  width: 400px;
   height: 300px;
   position: relative;
   border-radius: 10px;
@@ -85,6 +85,7 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
 
 @media screen and (max-width: 768px) {
   .portfolioItem {
