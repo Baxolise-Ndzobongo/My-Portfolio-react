@@ -1,3 +1,4 @@
+/*Contact Style*/
 .ContactPage {
   display: flex;
   flex-direction: column;
@@ -18,29 +19,29 @@
 /* Moving line on the form*/
 @keyframes moveGradient {
   0% {
-    background-position: 0 0; /* Starting position of the gradient */
+    background-position: 0 0;
   }
   100% {
-    background-position: 100% 0; /* Ending position of the gradient */
+    background-position: 100% 0;
   }
 }
 
 .contactContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Align items to the right */
+  align-items: flex-end; 
  
 }
 
 .contactItem {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; /* Adjust margin as needed */
+  margin-bottom: 20px; 
   margin-right: 40rem;
 }
 
 .icon {
-  margin-right: 10px; /* Adjust margin as needed */
+  margin-right: 10px; 
   color: #ff176b;
 }
 
@@ -80,8 +81,9 @@
   left: 42rem;
 }
 
+/* END OF CYCLE STYLE*/
 
-
+/*Form Style*/
 .form-container {
   display: flex;
   justify-content: flex-start;
@@ -91,8 +93,8 @@
     linear-gradient(black, black) padding-box, 
     linear-gradient(145deg, transparent 25%, #ff176b 26%, #7d073e 75%) border-box; /* Adjust gradient stops */
   border: 3px solid transparent;
-  background-size: 200% 100%; /* Double the width for the gradient animation */
-  animation: moveGradient 2s linear infinite; /* Adjust animation duration and timing function */
+  background-size: 200% 100%;
+  animation: moveGradient 2s linear infinite;
   margin-left: 45rem;
   margin-top: 5rem;
 }
@@ -107,9 +109,9 @@
 }
 
 
-.form-container button:active {
-  transform: scale(0.95); /* Fix scale property */
-}
+/* .form-container button:active {
+  transform: scale(0.95);
+} */
 
 .form-container .form-group label {
   display: flex;
@@ -127,7 +129,7 @@
   font-family: inherit;
   background-color: white;
   border: 1px solid #f8f2f2;
-  margin-top: 8px; /* Adjust margin-top */
+  margin-top: 8px;
 }
 
 .form-container .form-group textarea {
@@ -135,11 +137,11 @@
   height: 96px;
 }
 .form-group label {
-  color: black; /* Set label font color to black */
+  color: black; 
 }
 .form-group input, 
 .form-group textarea {
-  color: black; /* Set input font color to black */
+  color: black; 
 }
 
 
@@ -172,11 +174,11 @@
 }
 
 
-
+/* Responsiness Style */
 @media screen and (max-width: 480px){
   .contactItem {
     align-items: center;
-    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px;
     margin-right: 1rem;
   }
   
@@ -195,7 +197,7 @@
   @media (max-width: 768px) {
     .contactItem {
       align-items: center;
-      margin-bottom: 20px; /* Adjust margin as needed */
+      margin-bottom: 20px;
       margin-right: 1rem;
     }
     
@@ -214,3 +216,4 @@
   }
   
   }
+/*END OF RESPONSINESS STYLE*/

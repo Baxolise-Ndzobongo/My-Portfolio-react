@@ -1,3 +1,4 @@
+/*Itro Style*/
 #intro {
     width: 100vw;
     max-width: 75rem;
@@ -27,7 +28,9 @@
     font-size: medium;
     font-weight: 100;
   }
- 
+  /*END OF INTRO STYLE*/
+
+ /* resume Button*/
   .resumeButton {
     width: 9rem;
     height: 40px;
@@ -42,7 +45,7 @@
   }
   
   .resumeButton .icon {
-    margin-right: 0.1rem;
+    margin-left: 0.5rem;
     color: black;
   }
   
@@ -50,17 +53,17 @@
     position: relative;
     font-size: 20px;
     color: black;
-    right: 0.5rem;
+    right: 1rem;
   }
+  /*END OF RESUME BUTTON*/
 
    /* social icons style*/
    .social-media {
     display: flex;
-    align-items: left;
-    align-content: left;
-    justify-content: left;
     gap: 20px;
     list-style: none;
+    
+ 
   }
   
   .social-media a {
@@ -75,6 +78,8 @@
     position: relative;
     z-index: 9;
     border: 1px solid #ff176b;
+    color: #000000;
+    
   }
   
   .social-media a svg {
@@ -107,7 +112,8 @@
   }
   
   .social-media a:hover svg {
-    filter: none; 
+    /* filter: none;  */
+    
     fill: #ff176b;
   }
   @keyframes sideClip {
@@ -123,7 +129,9 @@
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
   }
-  
+  /* END OF SOCIAL MEDIA*/
+
+  /* Image style*/
   .Baxolise {
     max-width: 40%;
     border-radius: 50%;
@@ -158,8 +166,9 @@
       transform: none;
     }
   }
-  
+  /* END OF IMAGE STYLE*/
 
+/* Responsiveness*/
   @media only screen and (max-width: 768px) {
     #intro{
       flex-direction: column;
@@ -182,37 +191,37 @@
   }
   @media screen and (max-width: 840px) {
     .Baxolise {
-      max-width: 30%; /* Adjust the image size */
-      right: 35vw; /* Adjust position */
+      max-width: 30%;
+      right: 35vw; 
       top: 7rem;
     }
     .introContent {
-      font-size: 5vw; /* Adjust font size */
+      font-size: 5vw;
       margin-top: 7rem;
     }
     .hello {
-      font-size: 4vw; /* Adjust font size */
+      font-size: 4vw;
       margin-top: 3rem;
     }
     .introPara {
-      font-size: 3vw; /* Adjust font size */
+      font-size: 3vw;
       margin-top: 2rem;
     }
   }
   
   @media screen and (max-width: 480px) {
     .Baxolise {
-      max-width: 30%; /* Adjust the image size */
-      right: 35vw; /* Adjust position */
-      top: 7rem;/* Adjust position */
+      max-width: 30%;
+      right: 35vw;
+      top: 7rem;
     }
     .introContent {
-      font-size: 3vw; /* Adjust font size */
+      font-size: 3vw; 
       margin-top: 7rem
     }
     .hello {
-      font-size: 3vw; /* Adjust font size */
+      font-size: 3vw; 
       margin-top: 2rem;
     }
   }
-  
+  /*END OF RESPONSIVENESS*/

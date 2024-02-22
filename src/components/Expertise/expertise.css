@@ -45,34 +45,24 @@
   font-weight: 500;
 }
 
-/* .objective {
-  max-width: 30rem;
-  height: 10rem;
-  font-size: 1.1rem;
-  background-color: #ff176b;
-  border-radius: 5%;
-  font-weight: 500;
-  justify-content:flex-end
-  
-} */
 
 .Baxo {
   width: 450px;
   height: 300px;
   position: relative;
   transform-style: preserve-3d;
-  animation: float 4s infinite linear; /* Add animation for floating effect */
+  animation: float 4s infinite linear;
 }
 
 @keyframes float {
   0% {
-    transform: translate3d(0, 0, 0); /* Initial position */
+    transform: translate3d(0, 0, 0);
   }
   50% {
-    transform: translate3d(20px, 20px, 20px); /* Float upwards and to the right */
+    transform: translate3d(20px, 20px, 20px);
   }
   100% {
-    transform: translate3d(0, 0, 0); /* Return to initial position */
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -117,7 +107,7 @@
   position: relative;
   height: 1.5rem;
   background-color: #ff176b;
-  transition: background-color 0.3s ease,transform 0.3s ease; /* Added transition for smoother hover effect */
+  transition: background-color 0.3s ease,transform 0.3s ease;
 }
 
 .progress-bar:hover {

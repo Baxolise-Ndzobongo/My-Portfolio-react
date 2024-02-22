@@ -8,6 +8,8 @@
   transition: all 0.3s ease;
   color: #fff;
 }
+
+/*Scroll up button*/
 .scroll-up-btn {
   position: fixed;
   height: 45px;
@@ -33,10 +35,11 @@
   opacity: 1;
   pointer-events: auto;
 }
-
-.scroll-up-btn:hover {
+/*END OF SCROLL UP BUTTON*/
+/* .scroll-up-btn:hover {
   filter: brightness(90%);
-}
+} */
+/*Navbar style*/
 .navbar.sticky {
   padding: 15px 0;
   background-image:linear-gradient( #ff176b, black);
@@ -64,9 +67,10 @@
   color: #ff176b;
 }
 
+
 .desktopMenuListItem 
 {
-  margin-right: 20px; /* Adjust the margin as per your preference */
+  margin-right: 20px;
   cursor: pointer;
 }
 .desktopMenuListItem:hover {
@@ -144,10 +148,6 @@
   .navbar .menu li {
       margin-bottom: 15px;
   }
-
-  /* .navbar .menu li:last-child {
-      margin-bottom: 0;
-  } */
 
   .navbar .menu li a {
       color: #fff;

@@ -14,7 +14,7 @@
 }
 
 .portfolio-container {
-  margin-top: 20px; /* Adjust margin as needed */
+  margin-top: 20px;
 }
 .card-container {
   display: flex;
@@ -37,7 +37,7 @@
   height: 100%;
   border-radius: inherit;
 }
-
+/* Hoovering style*/
 .card .content {
   position: absolute;
   top: 0;
@@ -72,7 +72,9 @@
 .card:hover .front-content {
   transform: translateX(-30%);
 }
+/*END OF HOOVERING*/
 
+/*Button Style*/
 .portfolioButton {
   background-color: #0a0a0a;
   border: none;
@@ -87,7 +89,7 @@
   border-radius: 5px;
 }
 
-
+/*Responsiveness*/
 @media screen and (max-width: 768px) {
   .portfolioItem {
     width: 45%;

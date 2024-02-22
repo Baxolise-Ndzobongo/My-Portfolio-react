@@ -36,7 +36,7 @@ const Intro = () => {
 
         <button className="resumeButton" onClick={handleResumeClick}>
           <span className="icon">
-            <FaDownload size={0} style={{ marginRight: "10px" }} />
+            <FaDownload size={20} style={{ marginRight: "10px" }} />
           </span>
           <span className="text">Resume</span>
         </button>
