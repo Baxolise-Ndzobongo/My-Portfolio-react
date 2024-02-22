@@ -124,8 +124,8 @@
       transform: translateY(-100%);
   }
   
-  .desktopMenuListItem 
-{
+  .desktopMenuListItem {
+
   display: flex;
  justify-content: center;
   align-items:flex-end;

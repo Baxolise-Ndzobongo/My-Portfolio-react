@@ -4,6 +4,7 @@
   align-items: center;
   margin-bottom: 2rem;
   color: white;
+ 
 }
 
 .contactPageTitle {
@@ -22,6 +23,25 @@
   100% {
     background-position: 100% 0; /* Ending position of the gradient */
   }
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the right */
+ 
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+  margin-right: 40rem;
+}
+
+.icon {
+  margin-right: 10px; /* Adjust margin as needed */
+  color: #ff176b;
 }
 
 .contactItem:last-child {
@@ -45,8 +65,8 @@
   background: linear-gradient(#ff176b, white);
   top: 400px;
   right: 60rem;
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
 }
 
 .circle2 {
@@ -87,22 +107,6 @@
 }
 
 
-/* Style for the items*/
-/* .contactItemsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-} */
-
-/* .contactItem {
-  display: flex;
-  margin-right: 50rem;
-  margin-top: 5px;
-  align-items: flex-end;
-} */
-
-
-
 .form-container button:active {
   transform: scale(0.95); /* Fix scale property */
 }
@@ -137,9 +141,7 @@
 .form-group textarea {
   color: black; /* Set input font color to black */
 }
-/* .form-container .form-group input::placeholder {
-  opacity: 0.5;
-} */
+
 
 .form-container .form-group input:focus,
 .form-container .form-group textarea:focus {
@@ -168,14 +170,16 @@
   background-color: #EB1EB2;
   border-color: #f7397e;
 }
-.form-container .form-group input::placeholder,
-.form-container .form-container .form-group textarea::placeholder {
-  color: black; /* Set placeholder color to black */
-}
 
 
 
 @media screen and (max-width: 480px){
+  .contactItem {
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-right: 1rem;
+  }
+  
   .form-container{
     align-items: center;
     margin-right: 200px;
@@ -189,9 +193,15 @@
   }
 }
   @media (max-width: 768px) {
+    .contactItem {
+      align-items: center;
+      margin-bottom: 20px; /* Adjust margin as needed */
+      margin-right: 1rem;
+    }
+    
  
   .form-container {
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
   }
 

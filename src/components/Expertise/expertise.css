@@ -41,28 +41,20 @@
   background-color: #ff176b;
   padding: 1rem;
   border-radius: 5%;
-  color: black; /* Add this line to set the text color to black */
+  color: black; 
   font-weight: 500;
 }
-.txt-type > .txt {
-  border-right: 0.08rem solid #fff;
-  padding-right: 2px;
-  /* Animating the cursor */
-  animation: blink 0.6s infinite;
-  color: black; /* Add this line to set the text color to black */
-}
 
-.objective {
+/* .objective {
   max-width: 30rem;
   height: 10rem;
   font-size: 1.1rem;
   background-color: #ff176b;
   border-radius: 5%;
-
   font-weight: 500;
   justify-content:flex-end
   
-}
+} */
 
 .Baxo {
   width: 450px;

@@ -20,7 +20,8 @@ const Expertise = () => {
                 ],
                 autoStart: true,
                 loop: true,
-                deleteSpeed: 1000,
+                deleteSpeed: 30,
+                delay: 15,
               }}
             />
             </div>

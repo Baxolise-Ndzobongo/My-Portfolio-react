@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp, faBars } from '@fortawesome/free-solid-svg-icons';
-import { Link, animateScroll } from 'react-scroll'; // Import animateScroll
-import './navbar.css'; // Import your CSS file
+import { Link, animateScroll } from 'react-scroll';
+import './navbar.css';
 
-const Navbar = ({ isHomePage }) => {
+const Navbar = ({ isIntro }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -13,14 +13,14 @@ const Navbar = ({ isHomePage }) => {
 
     const scrollToTop = () => {
         animateScroll.scrollToTop({
-            duration: 500, // Scroll duration in milliseconds
-            smooth: 'easeInOutQuad', // Type of easing
+            duration: 500,
+            smooth: 'easeInOutQuad',
         });
     };
 
     return (
         <div>
-            {!isHomePage && (
+            {isIntro ? null : (
                 <div className="scroll-up-btn show" onClick={scrollToTop}>
                     <FontAwesomeIcon icon={faAngleUp} />
                 </div>
@@ -47,4 +47,3 @@ const Navbar = ({ isHomePage }) => {
 }
 
 export default Navbar;
-
