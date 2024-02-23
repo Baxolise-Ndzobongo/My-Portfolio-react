@@ -9,36 +9,7 @@
   color: #fff;
 }
 
-/*Scroll up button*/
-.scroll-up-btn {
-  position: fixed;
-  height: 45px;
-  width: 42px;
-  background: #ff176b;
-  right: 30px;
-  bottom: 10px;
-  text-align: center;
-  line-height: 45px;
-  color: #fff;
-  z-index: 9999;
-  font-size: 30px;
-  border-radius: 6px;
-  border-bottom-width: 2px;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
 
-.scroll-up-btn.show {
-  bottom: 30px;
-  opacity: 1;
-  pointer-events: auto;
-}
-/*END OF SCROLL UP BUTTON*/
-/* .scroll-up-btn:hover {
-  filter: brightness(90%);
-} */
 /*Navbar style*/
 .navbar.sticky {
   padding: 15px 0;
@@ -72,6 +43,7 @@
 {
   margin-right: 20px;
   cursor: pointer;
+  padding: 1rem;
 }
 .desktopMenuListItem:hover {
   color: rgb(14, 13, 13);

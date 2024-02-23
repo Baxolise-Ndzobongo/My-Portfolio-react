@@ -4,6 +4,7 @@ import Expertise from "./components/Expertise/expertise";
 import Portfolio from "./components/Portfolio/portfolio";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
+import BacktoTop from "./components/Back-To-Top/Back-To-Top";
 function App() {
     return (
         <>
@@ -12,6 +13,7 @@ function App() {
         <Expertise/>
         <Portfolio/>
         <Contact/>
+        <BacktoTop/>
         <Footer/>
         </>
     );

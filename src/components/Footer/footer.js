@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import { FaArrowUp, FaCopyright } from 'react-icons/fa';
+import { FaCopyright } from 'react-icons/fa';
 
 const Footer = () => {
   return (
