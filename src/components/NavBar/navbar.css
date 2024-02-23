@@ -137,3 +137,56 @@
       position: relative;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .navbar .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #ff176b;
+      padding: 20px 0;
+      text-align: center;
+      transition: all 0.3s ease;
+      transform: translateY(-100%);
+  }
+  
+  .desktopMenuListItem {
+
+  display: flex;
+ justify-content: center;
+  align-items:flex-end;
+  cursor: pointer;
+  right: 0;
+}
+  .desktopMenuListItem:hover {
+    color: rgb(14, 13, 13);
+    border-bottom: 3px solid rgb(252, 247, 248);
+  }
+  .navbar .menu.open {
+      display:list-item;
+      transform: translateY(0);
+  }
+
+  .navbar .menu li {
+      margin-bottom: 15px;
+  }
+
+  .navbar .menu li a {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+  }
+
+  .navbar .menu li a:hover {
+      color: #fff;
+  }
+
+  .menu-btn {
+      display: block;
+      position: relative;
+  }
+}

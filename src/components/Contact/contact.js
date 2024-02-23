@@ -51,21 +51,22 @@ const Contact = () => {
       <div className="ContactPage">
         <h1 className='contactPageTitle'>Contact Me</h1>
         <h2 className='contactSub'>Get in touch</h2>
-        <div className="contactItemsContainer">
-          <div className="contactItem">
-            <FaEnvelope className="icon" />
-            <span>baxolisendzobongo222@gmail.com</span>
+        <div className='items'>
+          <div className="contactItemsContainer">
+            <div className="contactItem">
+              <FaEnvelope className="icon" />
+              <span>baxolisendzobongo222@gmail.com</span>
+            </div>
+            <div className="contactItem">
+              <FaPhone className="icon" />
+              <span>0734946547</span>
+            </div>
+            <div className="contactItem">
+              <FaMapMarkerAlt className="icon" />
+              <span>Philippi East</span>
+            </div>
           </div>
-          <div className="contactItem">
-            <FaPhone className="icon" />
-            <span>0734946547</span>
-          </div>
-          <div className="contactItem">
-            <FaMapMarkerAlt className="icon" />
-            <span>Philippi East</span>
-          </div>
-        </div>
-      </div>
+      
       <div className="circle-container">
         <div className="circle circle1"></div>
         <div className="circle circle2"></div>
@@ -101,6 +102,8 @@ const Contact = () => {
           </div>
           <button type="submit" className="form-submit-btn">Send Message</button>
         </form>
+      </div>
+      </div>
       </div>
     </section>
   );
