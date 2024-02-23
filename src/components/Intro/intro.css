@@ -39,6 +39,7 @@
     justify-content: left;
     background: #ff176b;
     margin: 1rem;
+    margin-left: 0rem;
     border: none;
     border-radius: 1rem;
     font-size: 14px;
@@ -186,6 +187,7 @@
     .resumeButton {
       width: 7rem;
       font-size: 12px;
+      margin-left: 0rem;
     }
   }
   @media screen and (max-width: 840px) {

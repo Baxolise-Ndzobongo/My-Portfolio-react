@@ -109,10 +109,6 @@
 }
 
 
-/* .form-container button:active {
-  transform: scale(0.95);
-} */
-
 .form-container .form-group label {
   display: flex;
   margin-bottom: 0px;

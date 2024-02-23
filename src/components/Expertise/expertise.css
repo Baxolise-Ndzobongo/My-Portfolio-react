@@ -26,7 +26,7 @@
   display: flex;
   gap: .1rem;
   margin-left: 3rem;
-  margin-top: 40px;
+  margin-top: 60px;
 
 }
 
@@ -129,13 +129,13 @@
 
 .pull-right2 {
   position: relative;
-  left: 10rem;
+  left: 10.5rem;
   top: 1.4rem;
 }
 
 .pull-right3 {
   position: relative;
-  left: 8rem;
+  left: 8.5rem;
   top: 1.5rem;
 }
 
