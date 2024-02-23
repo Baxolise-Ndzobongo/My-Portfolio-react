@@ -211,6 +211,8 @@
   .form-submit-btn {
     width: 100%;
   }
-  
+  .circle {
+    display: none;
+  }
   }
 /*END OF RESPONSINESS STYLE*/
