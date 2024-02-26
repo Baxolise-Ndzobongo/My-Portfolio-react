@@ -16,7 +16,6 @@
   text-align: center;
   font-size: small;
 }
-
 /* Moving line on the form*/
 @keyframes moveGradient {
   0% {
@@ -178,7 +177,9 @@
     margin-bottom: 20px;
     margin-right: 1rem;
   }
-  
+  .circle-container {
+    display: none;
+  }
   .form-container{
     align-items: center;
     margin-right: 200px;
@@ -211,8 +212,6 @@
   .form-submit-btn {
     width: 100%;
   }
-  .circle {
-    display: none;
-  }
+  
   }
 /*END OF RESPONSINESS STYLE*/

@@ -92,9 +92,9 @@
       position: absolute;
       top: 100%;
       left: 0;
-      width: 100%;
+      width: 150%;
       background-color: #ff176b;
-      padding: 20px 0;
+      /* padding: 20px 0; */
       text-align: center;
       transition: all 0.3s ease;
       transform: translateY(-100%);
@@ -103,7 +103,7 @@
   .desktopMenuListItem {
 
   display: flex;
- justify-content: center;
+  justify-content: center;
   align-items:flex-end;
   cursor: pointer;
   right: 0;
@@ -152,14 +152,18 @@
       transition: all 0.3s ease;
       transform: translateY(-100%);
   }
+
+  .navbar{
+    width: 390px;
+  }
   
   .desktopMenuListItem {
 
-  display: flex;
- justify-content: center;
-  align-items:flex-end;
-  cursor: pointer;
-  right: 0;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    cursor: pointer;
+    right: 0;
 }
   .desktopMenuListItem:hover {
     color: rgb(14, 13, 13);
@@ -168,6 +172,7 @@
   .navbar .menu.open {
       display:list-item;
       transform: translateY(0);
+      
   }
 
   .navbar .menu li {
@@ -187,6 +192,7 @@
 
   .menu-btn {
       display: block;
-      position: relative;
+      
+     
   }
 }

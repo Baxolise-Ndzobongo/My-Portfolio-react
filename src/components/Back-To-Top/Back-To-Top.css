@@ -24,3 +24,9 @@
     opacity: 1;
     pointer-events: auto;
   }
+
+  @media screen and (max-width: 480px){
+    .scroll-up-btn{
+        margin-right:1rem ;
+    }
+  }
