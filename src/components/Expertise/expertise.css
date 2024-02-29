@@ -14,11 +14,16 @@
 }
 .title{
   align-items: center;
+  font-weight: bold;
 }
-.skillsTitle
+.skillsTitle{
+  font-weight: bold;
+  font-size: 12px;
+}
 .skillsTitle2{
   align-items: center;
   font-weight: bold;
+  font-size: 20px;
 
 }
 

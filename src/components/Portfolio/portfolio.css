@@ -11,8 +11,17 @@
 
 .center {
   text-align: center;
+  font-weight: bold;
+ 
+}
+.title{
+  margin-top: 0rem;
 }
 
+.portfolioTitle{
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
 .portfolio-container {
   margin-top: 20px;
 }

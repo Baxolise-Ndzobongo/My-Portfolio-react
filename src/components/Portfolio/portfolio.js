@@ -34,7 +34,7 @@ const Portfolio = () => {
                 <h2>Tax Calculator</h2>
                 This tax calculator calculates the amount each person will be taxed based on income, age, and whether a person does qualify for tax.
               </div>
-              <button className="portfolioButton" onClick={() => redirectToGitHub("https://github.com/your-username/tax-calculator")}>Github Link</button>
+              <button className="portfolioButton" onClick={() => redirectToGitHub("https://github.com/kwakhanya/Tax-Calculator")}>Github Link</button>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Portfolio = () => {
             <div className="content hoverText">
               <div className="portfolioText">
                 <h2>Investment Calculator</h2>
-                This is a calculator for investment or bonds, where a user can input principal, interest rate, and time.
+                This is a calculator for investment or bonds, where a user estimate the future value of their investments based on various factors like initial investment amount, expected rate of return, and investment duration. 
               </div>
               <button className="portfolioButton" onClick={() => redirectToGitHub("https://github.com/kwakhanya/financial_calculator")}>Github Link</button>
             </div>
