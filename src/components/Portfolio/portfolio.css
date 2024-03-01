@@ -1,5 +1,5 @@
 #portfolio {
-  width: 100vw;
+  width: 100%;
   max-width: 60rem;
   display: flex;
   flex-direction: column;
@@ -28,11 +28,13 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Center the cards */
   gap: 40px;
 }
 
 .card {
-  width: 400px;
+  max-width: 400px; /* Limit card width */
+  width: 100%; /* Ensure card fills its container */
   height: 300px;
   position: relative;
   border-radius: 10px;
@@ -101,17 +103,44 @@
 }
 
 /*Responsiveness*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .portfolioItem {
-    width: 45%;
+    width: 50%;
   }
-  .card{
-    gap: 20px;
+  .portfolioImg{
+    width: 50%;
+    height: 50%;
   }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 40px;
+  }
+  
+  .card {
+    max-width: 400px; /* Limit card width */
+    width: 100%; /* Ensure card fills its container */
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
 }
 
 @media screen and (max-width: 480px) {
   .portfolioItem {
     width: 100%;
   }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 40px;
+  }
+
+  
 }

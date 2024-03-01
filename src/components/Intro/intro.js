@@ -14,24 +14,24 @@ const Intro = () => {
     <section id="intro">
       <div className="introContent">
         <span className="hello">
-          Hi I am Baxolise Ndzobongo<br></br> and I am a{" "}
+          Hi I am Baxolise Ndzobongo<br/> and I am a{" "}
           <span className="introTittle">
-            <br></br>SOFTWARE DEVELOPER
+            <br/>SOFTWARE DEVELOPER
           </span>
         </span>
         <p className="introPara">
           I have a robust background in commercial subjects from high school,
-          <br></br>
+          <br/>
           complemented by a Bachelor of Information Systems degree earned
-          <br></br> in 2018 from the university of Fort Hare. Possessing a
-          combination of<br></br> business acumen and technical expertise, I am
-          well-prepared to<br></br> thrive in the ever-evolving realm of
-          technology. I am enthusiastic about<br></br> applying my education
-          and experience to make valuable <br></br>contributions to diverse
-          projects and industries. In my leisure time<br></br> I prefer
-          staying indoors, engaging in activities such as reading. <br></br>While
+          <br/> in 2018 from the university of Fort Hare. Possessing a
+          combination of<br/> business acumen and technical expertise, I am
+          well-prepared to<br/> thrive in the ever-evolving realm of
+          technology. I am enthusiastic about<br/> applying my education
+          and experience to make valuable <br/>contributions to diverse
+          projects and industries. In my leisure time<br/> I prefer
+          staying indoors, engaging in activities such as reading. <br/>While
           I identify as a naturally shy individual, I am actively working to
-          overcome this<br></br> challenge.
+          overcome this<br/> challenge.
         </p>
 
         <button className="resumeButton" onClick={handleResumeClick}>

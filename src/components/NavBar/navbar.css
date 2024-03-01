@@ -85,14 +85,14 @@
 
 
 /* For small screen sizes */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar .menu {
       display: none;
       flex-direction: column;
       position: absolute;
       top: 100%;
       left: 0;
-      width: 150%;
+      width: 100%;
       background-color: #ff176b;
       /* padding: 20px 0; */
       text-align: center;
@@ -137,6 +137,11 @@
       position: relative;
   }
 }
+@media screen and (max-width: 452px) {
+  .navbar{
+    width: 90%;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .navbar .menu {
@@ -154,7 +159,7 @@
   }
 
   .navbar{
-    width: 390px;
+    width: 100%;
   }
   
   .desktopMenuListItem {

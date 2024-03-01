@@ -4,6 +4,7 @@
   bottom: 0px;
   margin-bottom: 0px;
   min-height: 5vh;
+  width: 100%;
 }
 
 .footerHeading {
@@ -35,5 +36,6 @@
 @media screen and (max-width: 480px) {
   .footerHeading {
     font-size: 14px;
+    width: 80%;
   }
 }

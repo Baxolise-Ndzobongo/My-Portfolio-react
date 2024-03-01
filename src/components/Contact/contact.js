@@ -62,7 +62,7 @@ const Contact = () => {
               <span>baxolisendzobongo222@gmail.com</span>
             </div>
             </div>
-      
+                
       <div className="circle-container">
         <div className="circle circle1"></div>
         <div className="circle circle2"></div>
@@ -92,7 +92,7 @@ const Contact = () => {
             <label htmlFor="message">Message:</label>
             <textarea required="" cols="50" rows="10" id="message" name="message" value={formData.message} onChange={handleInputChange}></textarea>
           </div>
-          <div>
+          <div className="recaptcha-container">
             <ReCAPTCHA
             sitekey="6Ley73spAAAAADWx7YTOAZYN0tscQ6RuZDGuSADA"
             onChange={onChange}
