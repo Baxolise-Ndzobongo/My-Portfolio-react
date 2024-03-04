@@ -47,9 +47,8 @@
 }
 .desktopMenuListItem:hover {
   color: rgb(14, 13, 13);
-  border-bottom: 3px solid rgb(252, 247, 248);
+  border-bottom: 3px solid #ff176b;
 }
-
 
 
 .navbar .menu li {
@@ -82,66 +81,59 @@
   display: none;
 }
 
-
-
 /* For small screen sizes */
 @media screen and (max-width: 767px) {
   .navbar .menu {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      background-color: #ff176b;
-      /* padding: 20px 0; */
-      text-align: center;
-      transition: all 0.3s ease;
-      transform: translateY(-100%);
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -100%; /* Start off screen */
+    width: 70%;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff176b, black);
+    padding-top: 80px;
+    text-align: center;
+    transition: left 1.5s ease; /* Slow sliding transition from the left */
   }
-  
-  .desktopMenuListItem {
 
-  display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  cursor: pointer;
-  right: 0;
-}
-  .desktopMenuListItem:hover {
-    color: rgb(14, 13, 13);
-    border-bottom: 3px solid rgb(252, 247, 248);
-  }
   .navbar .menu.open {
-      display:list-item;
-      transform: translateY(0);
+    left: 0; /* Slide in from the left */
   }
 
   .navbar .menu li {
-      margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 
   .navbar .menu li a {
-      color: #fff;
-      font-size: 18px;
-      font-weight: 500;
-      transition: color 0.3s ease;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth color transition */
   }
 
   .navbar .menu li a:hover {
-      color: #fff;
+    color: #fff;
   }
 
   .menu-btn {
-      display: block;
-      position: relative;
+    display: block;
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's above other content */
+    transition: color 0.3s ease; /* Smooth color transition for the button */
+  }
+
+  /* Change button color on hover */
+  .menu-btn:hover {
+    color: #fff;
   }
 }
-@media screen and (max-width: 452px) {
-  .navbar{
-    width: 90%;
-  }
-}
+
 
 @media screen and (max-width: 480px) {
   .navbar .menu {
@@ -198,6 +190,5 @@
   .menu-btn {
       display: block;
       
-     
   }
 }
