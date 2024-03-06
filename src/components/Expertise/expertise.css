@@ -39,13 +39,13 @@
   position: relative;
   justify-content: left;
   flex-wrap: wrap;
-  right: 10rem;
+  right: 6rem;
   top: 5px;
 }
 .typewriter-text {
   background-color: #ff176b;
   padding: 1rem;
-  border-radius: 5%;
+  border-radius: 10%;
   color: black; 
   font-weight: 500;
 }
@@ -89,7 +89,7 @@
 .skill-mf {
   width: 300px;
   height: 200px;
-  margin: 0.5rem;
+  margin: 2em;
 }
 
 .skill {
@@ -217,7 +217,7 @@
     padding: auto;
     display: flex;
     gap:0;
-    margin-left: 10rem;
+    margin-left: 5rem;
   }
   .Baxo {
     width: 90%;
@@ -230,7 +230,7 @@
   .skill-mf {
     width: auto;
     height: auto;
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
   .expertise{
     right: 6rem;

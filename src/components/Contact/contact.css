@@ -1,4 +1,7 @@
 /*Contact Style*/
+#contact{
+  margin-bottom: 1rem;
+}
 .ContactPage {
   display: flex;
   flex-direction: column;
@@ -56,7 +59,7 @@
 }
 
 .circle1 {
-  background: linear-gradient(#ff176b, white);
+  background: linear-gradient(#ff176b, black);
   top: 400px;
   right: 60rem;
   width: 180px;
@@ -64,12 +67,12 @@
 }
 
 .circle2 {
-  background: linear-gradient(#ff176b, white);
+  background: linear-gradient(#ff176b, black);
   top: 16rem;
   left: 68rem;
 }
 .circle3 {
-  background: linear-gradient(#ff176b, white);
+  background: linear-gradient(#ff176b, black);
   top: -6rem;
   left: 42rem;
 }

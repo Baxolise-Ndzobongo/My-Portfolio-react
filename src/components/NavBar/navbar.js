@@ -61,6 +61,17 @@ const Navbar = () => {
                                 PORTFOLIO
                             </Link>
                             <Link 
+                                to='gallery' 
+                                spy={true} 
+                                smooth={true} 
+                                offset={-200} 
+                                duration={500} 
+                                className={`desktopMenuListItem ${activeLink === 'gallery' ? 'active' : ''}`}
+                                onClick={() => { closeMenu(); handleSetActive('gallery'); }}
+                            >
+                                GALLERY
+                            </Link>
+                            <Link 
                                 to='contact' 
                                 spy={true} 
                                 smooth={true} 

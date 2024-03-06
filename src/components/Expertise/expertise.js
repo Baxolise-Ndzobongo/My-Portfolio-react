@@ -33,7 +33,7 @@ const Expertise = () => {
           </div>
           <div className="skill-mf">
             <div>
-            <span class="expertise">HTML</span>{" "}
+            <span className="expertise">HTML</span>{" "}
             <span className="pull-right1">85%</span>
             <div className="progress">
               <div
