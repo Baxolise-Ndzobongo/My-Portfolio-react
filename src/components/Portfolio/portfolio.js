@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import portfolio1 from "../../images/bank.jpg";
+import portfolio1 from "../../images/banking app.webp";
 import portfolio2 from "../../images/tax-cal.png";
 import portfolio3 from "../../images/calculator.webp";
 import portfolio4 from "../../images/construction.jpg";

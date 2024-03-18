@@ -6,6 +6,7 @@
   align-items: center;
   padding: 0;
   margin: auto;
+  margin-bottom: 8rem;
   color: white;
 }
 
@@ -40,7 +41,7 @@
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .card .front-content {

@@ -1,6 +1,7 @@
 #expertise {
   width: 100vw;
-  max-width: 60rem;
+  height: 100vh;
+  /* max-width: 60rem; */
   display: flex;
   flex-direction: column;
   align-items: center;

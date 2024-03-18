@@ -17,6 +17,7 @@ class Gallery extends React.Component {
   };
 
   componentDidMount() {
+
     this.startSlideShow();
   }
 
@@ -29,7 +30,7 @@ class Gallery extends React.Component {
       this.setState(prevState => ({
         currentIndex: (prevState.currentIndex + 1) % prevState.images.length
       }));
-    }, 3000); // Adjust the interval time (in milliseconds) as needed
+    }, 3000); //
   };
 
   stopSlideShow = () => {
@@ -44,6 +45,7 @@ class Gallery extends React.Component {
       <div className="gallery-container">
         <h1 className="gallery-heading">My Gallery</h1>
         <h2 className="gallery-subheading">Software Showcase</h2>
+        <p className="moving-sentence">Each image tells a story; together, they paint the picture of my journey through creativity and passion.</p>
         <div className="image-gallery">
           <div className="image-item">
             <img src={images[currentIndex].url} alt={images[currentIndex].caption} />
@@ -53,6 +55,7 @@ class Gallery extends React.Component {
         </div>
       </div>
     </section>
+    
     
     );
   }

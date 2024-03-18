@@ -7,11 +7,14 @@
   flex-direction: column;
   align-items: center;
   color: white;
+  height: 100vh;
+  width: 100vw;
  
 }
 
 .contactPageTitle {
   text-align: center;
+
 }
 
 .contactSub {
@@ -170,7 +173,6 @@
 @media screen and (max-width: 480px){
   .contactItem {
     align-items: center;
-    margin-bottom: 20px;
     margin-right: 1rem;
   }
   .circle-container {
@@ -193,7 +195,6 @@
 @media (max-width: 768px) {
   .contactItem {
     align-items: center;
-    margin-bottom: 20px;
     margin-right: 1rem;
     }
     
@@ -207,7 +208,6 @@
   }
 
   .form-group {
-    margin-bottom: 20px;
     width: 90%;
   }
 
